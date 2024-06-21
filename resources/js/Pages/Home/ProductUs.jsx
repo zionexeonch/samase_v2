@@ -3,8 +3,6 @@ import "aos/dist/aos.css";
 import AOS from "aos";
 import Main from "@/Layouts/Home/Main";
 import { Head, Link } from "@inertiajs/react";
-// import ProdukLists from "@/Components/Content/ProdukLists";
-// import Paginator from "@/Components/Content/Paginator";
 
 const ProdukUs = (props) => {
     useEffect(() => {
@@ -47,9 +45,7 @@ const ProdukUs = (props) => {
                                     </Link>
                                 </div>
                             </div>
-                            {/* <ProdukLists produks={props.produks.data} /> */}
                         </div>
-                        {/* <Paginator meta={props.produks.meta} /> */}
                     </div>
                 </div>
             </div>
